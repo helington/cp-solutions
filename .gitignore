@@ -6,3 +6,5 @@
 *.exe
 *.o
 *.a
+
+.DS_Store
