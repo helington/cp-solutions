@@ -1,0 +1,8 @@
+# macOS debug symbol files
+*.dSYM/
+
+# Compiled C++ binaries
+*.out
+*.exe
+*.o
+*.a
