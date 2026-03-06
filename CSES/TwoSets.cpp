@@ -20,7 +20,7 @@ void solve() {
         set<ll> numbers2;
 
         while (sum > 0) {
-            auto it = lower_bound(numbers.begin(), numbers.end(), sum);
+            auto it = numbers.lower_bound(sum);
             if (it == numbers.end()) it--;
 
             sum -= *it;
